@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1" />
+        <title>js課題</title>
+
+        <!-- css -->
+        <link rel="stylesheet" href="css/style.css" />
+
+        <!-- js -->
+        <script src="js/main.js" type="module"></script>
+    </head>
+    <body>
+        <div class="l-container wrap">
+            <p class="title">アニメーションなし</p>
+
+            <button aria-label="メニューを開く" type="button" class="button js-button"></button>
+
+            <ul class="menu js-menu">
+                <li class="menu-item">アカウント設定</li>
+                <li class="menu-item">カード情報</li>
+                <li class="menu-item">購入履歴</li>
+                <li class="menu-item">ログアウト</li>
+            </ul>
+
+            <div class="spacer"></div>
+
+            <p class="title">アニメーションあり</p>
+
+            <button aria-label="メニューを開く" type="button" class="button--anime js-button--anime"></button>
+
+            <ul class="menu--anime js-menu--anime">
+                <li class="menu-item menu-item--anime">アカウント設定</li>
+                <li class="menu-item menu-item--anime">カード情報</li>
+                <li class="menu-item menu-item--anime">購入履歴</li>
+                <li class="menu-item menu-item--anime">ログアウト</li>
+            </ul>
+
+            <div class="spacer"></div>
+
+            <p class="title">アニメーションなし</p>
+
+            <dialog aria-label="モーダル" class="modal js-modal">
+                <div class="modal-content js-modal-content">
+                    <button type="button" class="modal-close-button js-modal-close-button" aria-label="モーダルを閉じる"></button>
+
+                    <p>親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。</p>
+                </div>
+            </dialog>
+
+            <button type="button" class="modal-open-button js-modal-open-button">モーダルOPEN</button>
+
+            <div class="spacer"></div>
+
+            <p class="title">アニメーションあり</p>
+
+            <dialog aria-label="モーダル" class="modal js-modal--anime">
+                <div class="modal-content js-modal-content">
+                    <button type="button" class="modal-close-button js-modal-close-button--anime" aria-label="モーダルを閉じる"></button>
+
+                    <p>親譲りの無鉄砲で小供の時から損ばかりしている。小学校に居る時分学校の二階から飛び降りて一週間ほど腰を抜かした事がある。なぜそんな無闇をしたと聞く人があるかも知れぬ。</p>
+                </div>
+            </dialog>
+
+            <button type="button" class="modal-open-button js-modal-open-button--anime">モーダルOPEN</button>
+
+            <div class="spacer"></div>
+
+            <a href="hamburger.html" style="margin-top: 40px; text-decoration: underline; color: blue">ハンバーガーメニューへ</a>
+        </div>
+    </body>
+</html>
